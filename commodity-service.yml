@@ -6,4 +6,11 @@ spring:
     username: root
     password: root
 
+server.port: 0
+
+---
+spring:
+  zipkin:
+    base-url: http://zipkin-server:9411
+
 
